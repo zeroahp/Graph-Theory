@@ -85,10 +85,6 @@ int main(){
 		add_edge(&G,x,y);
 	}
 
-//	for(i = 1; i<=L.size ; i++){
-//		printf("%d ", element_List(&L,i));
-//	}
-
 	int i, j;
 	for(i = 1 ; i<=G.n ; i++){
 		List L = neighbors(&G,i);
